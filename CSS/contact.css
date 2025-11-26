@@ -1,0 +1,276 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #333;
+        }
+        
+        /* Header */
+header {
+    width: 100%;
+    padding: 35px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;  
+    /* box-shadow: 1px 1px 15px #00000071; */
+    
+}
+
+nav {
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #040464;
+    font-size: 18px;
+}
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(120deg, rgb(2, 45, 8), rgb(10, 0, 77));
+            /* padding: 40px 20px; */
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            height: 300px;
+        }
+
+.hero-wrapper {
+    height: 100%;
+    background: url();
+    backdrop-filter: blur(10px);
+    background-color: #0000002b;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        
+        /* Main Content */
+        .main-content {
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+        
+        /* Contact Form Section */
+        .contact-form-section {
+            flex: 1;
+            /* background-color: white; */
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #eaeaea;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.404);
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #05076e;
+        }
+        
+        .section-subtitle {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            color: #666;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .form-textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            min-height: 150px;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #040464;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #00cc00;
+        }
+        
+        /* Contact Info Section */
+        .contact-info-section {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .contact-info-card {
+            /* background-color: white; */
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #eaeaea;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.404);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .contact-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #00ff00;
+        }
+        
+        .contact-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .contact-value {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        
+        /* Map Section */
+        .map-section {
+            width: 100%;
+            height: 400px;
+            background-color: #ddd;
+            border-radius: 8px;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+        
+        .footer-content {
+            display: flex;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .footer-column {
+            flex: 1;
+        }
+        
+        .footer-logo {
+            width: 80px;
+            height: 80px;
+            /* background-color: #00ff00; */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            color: black;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .footer-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #00ff00;
+        }
+        
+        .footer-text {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+        
+        .follow-us {
+            background-color: rgb(230, 230, 230);
+            padding: 20px 100px;
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .follow-us-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+        
+       

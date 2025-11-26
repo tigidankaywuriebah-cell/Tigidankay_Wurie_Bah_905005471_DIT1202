@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+/* Header */
+header {
+    width: 100%;
+    padding: 35px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;  
+    /* box-shadow: 1px 1px 15px #00000071; */
+    
+}
+
+nav {
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #040464;
+    font-size: 18px;
+}
+
+/* Hero Secti0n */
+.hero {
+    background: url(../IMG/LEONE-STARS-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 40px 20px; */
+    text-align: center;
+    height: 300px;
+}
+
+.hero-wrapper {
+    height: 100%;
+    background: url();
+    backdrop-filter: blur(10px);
+    background-color: #0000002b;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        
+.hero h1 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* Players Section */
+main {
+    margin-bottom: 200px;
+}
+
+main>h2 {
+    font-size: 45px;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.player-card-container {
+    width: 100%;
+    padding: 0 auto;
+}
+
+.cd-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.player-card {
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.059);
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.player-card img {
+    width: 250px;
+    border-radius: 10px;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
